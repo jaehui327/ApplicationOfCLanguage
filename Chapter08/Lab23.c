@@ -9,7 +9,7 @@ int main(void) {
     fgets(arr, 100, stdin);
 
     while (*p != '\0') {
-        if(isspace(*p++)) // ∞¯πÈ¿Ã æ∆¥“ Ω√ 0 π›»Ø
+        if(isspace(*p++))
             count++;
     }
 
